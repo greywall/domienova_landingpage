@@ -5902,12 +5902,7 @@ button.close {
   width: auto;
   margin: 10px;
 }
-
-.content-width{
-  width:520px;
-}
 .modal-content {
-  width:520px;
   position: relative;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -5939,10 +5934,6 @@ button.close {
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
-}
-
-.modal-header img{
-  margin: 0px auto 0px auto;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5978,13 +5969,11 @@ button.close {
   overflow: scroll;
 }
 @media (min-width: 768px) {
-  #ContactModal .modal-dialog {width:520px;}
   .modal-dialog {
-    width: 600px;
+    width: 520px;
     margin: 30px auto;
   }
   .modal-content {
-    width:520px;
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
   }

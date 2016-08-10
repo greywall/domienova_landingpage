@@ -17,10 +17,35 @@ body {
    /* padding-left: 20px;*/
 }
 
-.tos{
+
+
+#tos{
     float:left;
-    padding-left: 20px;
-    padding-top:30px;
+    padding-left: 10px;
+    padding-top:50px;
+    display: inline;
+    color: #7F7F7F;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: '__Roboto_5';
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+}
+
+#tos_container{
+    position: relative;
+}
+
+
+#footer-icon{
+    display:flex;
+    position: relative;
+    margin-top:30px;
+    margin-left: 20px;
+    float:left;
+    height:50px;
+    width:50px;
 }
 
 .icon-logo {
@@ -36,6 +61,10 @@ body {
     font-size:24px;
     color:white;
     background-color: red;
+}
+
+.btn-green{
+    background-color:#69BD45;
 }
 
 #header_btn{
@@ -59,11 +88,13 @@ body {
 .action_btn{
     float:right;
     padding:20px 20px 20px 20px;
+    position: relative;
 }
 
 .img_footer{
-    height:130px;
-    width:220px;
+    height:100px;
+    width:150px;
+    padding:10px 10px 10px 10px;
 }
 
 #logo{
@@ -227,8 +258,23 @@ hr.small {
     padding: 0px 0;
     border-top:1px solid black;
     border-bottom:1px solid black;
+    padding-bottom: 20px;
 }
 
+.logos-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/*img {
+  width: 150px;
+}
+*/
+#service_title {
+    text-align: center;
+}
 .service-item {
     margin-bottom: 30px;
 }
